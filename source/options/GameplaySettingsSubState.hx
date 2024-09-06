@@ -118,7 +118,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'Changes the amount of time you have\nfor hitting a "Sick!" in milliseconds.',
 			'sickWindow',
 			'int',
-			45);
+			999999999999999999999999999999999);
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 15;
 		option.minValue = 15;
@@ -129,7 +129,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'Changes the amount of time you have\nfor hitting a "Good" in milliseconds.',
 			'goodWindow',
 			'int',
-			90);
+			0);
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 30;
 		option.minValue = 15;
@@ -140,7 +140,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'Changes the amount of time you have\nfor hitting a "Bad" in milliseconds.',
 			'badWindow',
 			'int',
-			135);
+			0);
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 60;
 		option.minValue = 15;
